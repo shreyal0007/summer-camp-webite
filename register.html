@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Registration Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="register.css">
+    </head>
+
+    <body>
+        <h1 class="registerheading">Registration Form</h1>
+        <form>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="ContactNumber">ContactNumber</label>
+            <input type="number" id="ContactNumber" name="contact" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="ager" name="age" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="preferredslot">Preferred Slot:</label>
+            <select id="preferredslot" name="preferredslot">
+                <option value="12pm-1pm">12pm-1pm</option>
+                <option value="12pm-1pm">1pm-2pm</option>
+                <option value="12pm-1pm">2pm-3pm</option>
+            </select>
+
+           
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
+</html>
