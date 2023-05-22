@@ -1,0 +1,71 @@
+/* CSS styles go here */
+@font-face {
+    font-family: 'travelistaregular';
+    src: url('travelista-webfont.woff2') format('woff2'),
+         url('travelista-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background-color: #FCC8D1;
+}
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input{
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+ select {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+ }
+
+input[type="submit"] {
+  background-color: #D14D72;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color:#9C254D;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.registerheading{
+    font-size: 50px;
+    font-family: 'travelistaregular';
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    
+    margin-bottom: 30px;
+
+    
+}
