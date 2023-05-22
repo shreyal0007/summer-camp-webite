@@ -1,9 +1,20 @@
+@font-face {
+    font-family: 'travelistaregular';
+    src: url('travelista-webfont.woff2') format('woff2'),
+         url('travelista-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     background-color: #D6F3F9;
 }
 .activityheading{
     font-size: 50px;
+    font-family: 'travelistaregular';
     font-weight: bold;
+    color:#146C94;
     text-align: center;
     margin-top: 90px;
     margin-bottom: 30px;
@@ -18,8 +29,8 @@ body{
      
 }
 .cards{
-    margin-left:5rem;
-    margin-right: 10rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-bottom: 3rem;
 }
 .activityimage{
@@ -27,4 +38,13 @@ body{
     height: 100%;
     border-radius: 10px;
     object-fit: fill;
+}
+.imagetitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
