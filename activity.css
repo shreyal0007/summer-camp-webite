@@ -1,0 +1,13 @@
+body{
+    background-color: #d25e5e;
+}
+activityheading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+subdiv1{
+    display: flex;
+     
+}
